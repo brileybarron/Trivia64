@@ -12,6 +12,8 @@
 		3B7CB2382178D8E100FFCCA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B7CB2362178D8E100FFCCA1 /* Main.storyboard */; };
 		3B7CB23A2178D8E300FFCCA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B7CB2392178D8E300FFCCA1 /* Assets.xcassets */; };
 		3B7CB23D2178D8E300FFCCA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B7CB23B2178D8E300FFCCA1 /* LaunchScreen.storyboard */; };
+		3B7CB245217A2A9B00FFCCA1 /* AddQuestionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CB244217A2A9B00FFCCA1 /* AddQuestionVC.swift */; };
+		3B7CB249217A2BC800FFCCA1 /* TriviaQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CB248217A2BC800FFCCA1 /* TriviaQuestion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		3B7CB2392178D8E300FFCCA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B7CB23C2178D8E300FFCCA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B7CB23E2178D8E300FFCCA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B7CB244217A2A9B00FFCCA1 /* AddQuestionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddQuestionVC.swift; sourceTree = "<group>"; };
+		3B7CB248217A2BC800FFCCA1 /* TriviaQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaQuestion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 			children = (
 				3B7CB2322178D8E100FFCCA1 /* AppDelegate.swift */,
 				3B7CB2342178D8E100FFCCA1 /* ViewController.swift */,
+				3B7CB244217A2A9B00FFCCA1 /* AddQuestionVC.swift */,
 				3B7CB2362178D8E100FFCCA1 /* Main.storyboard */,
 				3B7CB2392178D8E300FFCCA1 /* Assets.xcassets */,
 				3B7CB23B2178D8E300FFCCA1 /* LaunchScreen.storyboard */,
 				3B7CB23E2178D8E300FFCCA1 /* Info.plist */,
+				3B7CB248217A2BC800FFCCA1 /* TriviaQuestion.swift */,
 			);
 			path = Trivia64;
 			sourceTree = "<group>";
@@ -136,6 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B7CB2352178D8E100FFCCA1 /* ViewController.swift in Sources */,
+				3B7CB245217A2A9B00FFCCA1 /* AddQuestionVC.swift in Sources */,
+				3B7CB249217A2BC800FFCCA1 /* TriviaQuestion.swift in Sources */,
 				3B7CB2332178D8E100FFCCA1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
